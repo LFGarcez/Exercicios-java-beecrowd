@@ -16,7 +16,7 @@ public class Ex1036 {
         delta = Math.pow(B, 2) - 4 * (A * C);
 
        
-        if(delta > 0 && A != 0){
+        if(delta > 0 && delta != 0){
             R1 = (-B + Math.sqrt(delta)) / (2 * A);
             R2 = (-B - Math.sqrt(delta)) / (2 * A); 
 
